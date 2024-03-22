@@ -1,1 +1,25 @@
-/*# sourceMappingURL=styles.css.map */
+li {
+  list-style: none;
+}
+
+.list {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+p {
+  margin-top: 0;
+}
+
+.articles {
+  width: 1921px;
+  height: 1624px;
+}/*# sourceMappingURL=styles.css.map */
