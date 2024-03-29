@@ -3,4 +3,14 @@
   font-weight: bold;
   line-height: 150%;
   color: #010A20;
+}
+
+.gallery-description {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 156%;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: var(--paragraph-dark);
 }/*# sourceMappingURL=styles.css.map */
