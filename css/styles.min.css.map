@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"version":3,"sourceRoot":"","sources":["../scss/components/_gallery.scss"],"names":[],"mappings":"AAAA,eACI,eACA,iBACA,iBACA,cAIJ,qBACI,+BACJ,gBACA,eACA,iBACA,qBACA,kBACA","file":"styles.min.css"}
+=======
+{"version":3,"sourceRoot":"","sources":["../scss/components/utils/_utils.scss","../scss/components/_conteiner.scss","../scss/components/_header.scss","../scss/components/_articles.scss","../scss/components/_numbers.scss","../scss/components/_map.scss"],"names":[],"mappings":"AACA,GACI,gBAGJ,MACI,YACA,WACA,gBAIJ,uBAQI,aCpBJ,WACE,aACA,kBACA,mBACA,cCJF,aACE,aAGF,MACE,YACA,aACA,sBAGF,aACE,mBACA,eACA,gBACA,iBACA,oBACA,gBChBF,UACI,aACA,yBCCA,+BACA,gBACA,eACA,iBACA,kBACA,mBAGJ,SACI,+BACA,gBACA,eACA,iBACA,qBACA,kBACA,0BAOJ,YACI,+BACA,gBACA,eACA,iBACA,qBACA,kBACA,sBAGJ,UACI,+BACA,gBACA,eACA,iBACA,qBACA,kBACA,0BCxCJ,WACI,+BACJ,gBACA,eACA,iBACA,kBACA,WAGA,UACI,+BACJ,gBACA,eACA,iBACA,qBACA,kBACA,4BAGA,YACI,oBACJ,kBACA,+BACA,gBACA,eACA,iBACA,kBACA","file":"styles.min.css"}
+>>>>>>> a30a2a60c050b88a2a70a77f6de62a8e2502713a
