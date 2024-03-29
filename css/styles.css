@@ -1,6 +1,6 @@
-
 .menu {
   display: flex;
+}
 
 .num-title {
   font-family: var(--font-family);
@@ -69,5 +69,4 @@
   line-height: 150%;
   text-align: center;
   color: var(--white);
-
-}/
+}/*# sourceMappingURL=styles.css.map */
