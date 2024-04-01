@@ -1,13 +1,10 @@
-<<<<<<< HEAD
-.gallery-title {
-  font-size: 60px;
-  font-weight: bold;
-  line-height: 150%;
-  color: #010A20;
+.conteiner {
+  width: 1727px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
 }
 
-.gallery-description {
-=======
 li {
   list-style: none;
 }
@@ -16,6 +13,12 @@ li {
   padding: 0px;
   margin: 0px;
   list-style: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 h1,
@@ -29,11 +32,20 @@ p {
   margin-top: 0;
 }
 
-.conteiner {
-  width: 1727px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin: 0 auto;
+:root {
+  --main-red: #dd2242;
+  --blue---background: #010a20;
+  --white: #fff;
+  --text-lighten: #e0e0e0;
+  --grey-reduced: #85a3b2;
+  --light-text: rgba(21, 20, 57, 0.4);
+  --paragraph-dark: #6f7787;
+}
+
+:root {
+  --font-family: "DM Sans", sans-serif;
+  --second-family: "Roboto", sans-serif;
+  --third-family: "FontAwesome", sans-serif;
 }
 
 .header-menu {
@@ -56,8 +68,31 @@ p {
 }
 
 .articles {
-  width: 1921px;
-  height: 1624px;
+  background-image: url(../../images/articles-back.jpg);
+  background-position: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+
+.articless-img {
+  width: 631px;
+  height: 460px;
+}
+
+.item {
+  display: flex;
+}
+.item--indirect {
+  flex-direction: row-reverse;
+}
+
+.articles-title {
+  color: white;
+}
+
+.text {
+  color: white;
 }
 
 .num-title {
@@ -70,24 +105,10 @@ p {
 }
 
 .num-tex {
-<<<<<<< HEAD
   max-width: 484px;
   font-family: var(--font-family);
   font-weight: 400;
   font-size: 18px;
-=======
->>>>>>> a30a2a60c050b88a2a70a77f6de62a8e2502713a
-  font-family: var(--font-family);
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 156%;
-<<<<<<< HEAD
-  letter-spacing: 0.01em;
-  text-align: center;
-  color: var(--paragraph-dark);
-=======
-  letter-spacing: 0.03em;
->>>>>>> aba68aef2cb7725b8788ee2a80f1f4da4b15cfcf
   text-align: center;
   margin-left: auto;
   margin-right: auto;
@@ -196,11 +217,24 @@ p {
   line-height: 150%;
   text-align: center;
   color: var(--white);
-<<<<<<< HEAD
   display: flex;
   margin-left: auto;
   margin-right: auto;
-=======
->>>>>>> a30a2a60c050b88a2a70a77f6de62a8e2502713a
->>>>>>> aba68aef2cb7725b8788ee2a80f1f4da4b15cfcf
+}
+
+.gallery-title {
+  font-size: 60px;
+  font-weight: bold;
+  line-height: 150%;
+  color: #010A20;
+}
+
+.gallery-description {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 156%;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: var(--paragraph-dark);
 }/*# sourceMappingURL=styles.css.map */

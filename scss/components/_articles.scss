@@ -1,4 +1,29 @@
 .articles {
-    width: 1921px;
-    height: 1624px;
+    background-image: url(../../images/articles-back.jpg);
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
 }
+
+ .articless-img {
+    width: 631px;
+    height: 460px;
+ }
+
+.item {
+    display: flex;
+    &--indirect {
+     flex-direction: row-reverse;
+
+    }
+}
+
+.articles-title {
+    color: white;
+}
+
+.text {
+    color: white;
+}
+
