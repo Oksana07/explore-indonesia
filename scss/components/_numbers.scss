@@ -1,0 +1,44 @@
+.numbers {}
+
+.num-title {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 150%;
+    text-align: center;
+    color: var(--white);
+}
+
+.num-tex {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 156%;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: var(--text-lighten);
+}
+
+.numbers-list {}
+
+.item {}
+
+.item-title {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 117%;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: var(--main-red);
+}
+
+.item-tex {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 156%;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: var(--text-lighten);
+}

@@ -1,0 +1,30 @@
+
+.map-title {
+    font-family: var(--font-family);
+font-weight: 700;
+font-size: 42px;
+line-height: 119%;
+text-align: center;
+color: #000;
+}
+
+.map-text {
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 18px;
+line-height: 156%;
+letter-spacing: 0.03em;
+text-align: center;
+color: var(--paragraph-dark);
+}
+
+.map-button {
+    border-radius: 122px;
+padding: 16px 24px;
+font-family: var(--font-family);
+font-weight: 700;
+font-size: 18px;
+line-height: 150%;
+text-align: center;
+color: var(--white);
+}
