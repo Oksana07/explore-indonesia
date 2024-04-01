@@ -20,7 +20,7 @@ color: var(--paragraph-dark);
 }
 
 .map-button {
-    border-radius: 122px;
+border-radius: 122px;
 padding: 16px 24px;
 font-family: var(--font-family);
 font-weight: 700;
@@ -28,4 +28,8 @@ font-size: 18px;
 line-height: 150%;
 text-align: center;
 color: var(--white);
+
+display: flex;
+margin-left: auto;
+margin-right: auto;
 }

@@ -1,27 +1,39 @@
-.numbers {}
+// .numbers {
+//     margin-left: auto;
+//     margin-right: auto;
+//     padding-left: 322px;
+//     padding-right: 323px;
+// }
 
 .num-title {
     font-family: var(--font-family);
     font-weight: 700;
     font-size: 60px;
-    line-height: 150%;
     text-align: center;
+    line-height: 150%;
     color: var(--white);
 }
 
 .num-tex {
+    max-width: 484px;
     font-family: var(--font-family);
     font-weight: 400;
     font-size: 18px;
-    line-height: 156%;
-    letter-spacing: 0.03em;
     text-align: center;
-    color: var(--text-lighten);
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.numbers-list {}
+.num-list {
+    list-style: none;
+    display: flex;
+    text-align: center;
+}
 
-.item {}
+.num-item {
+    margin-left: auto;
+    margin-right: auto;
+}
 
 .item-title {
     font-family: var(--font-family);
@@ -29,16 +41,59 @@
     font-size: 42px;
     line-height: 117%;
     letter-spacing: 0.01em;
-    text-align: center;
-    color: var(--main-red);
+    color: #dd2242;
 }
 
 .item-tex {
     font-family: var(--font-family);
     font-weight: 400;
+    max-width: 340px;
     font-size: 18px;
     line-height: 156%;
     letter-spacing: 0.03em;
-    text-align: center;
     color: var(--text-lighten);
+}
+
+.map {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.map-title {
+    font-family: var(--font-family);
+    font-weight: 700;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 42px;
+    max-width: 614px;
+    line-height: 119%;
+    text-align: center;
+    color: #000;
+}
+
+.map-text {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    max-width: 470px;
+    line-height: 156%;
+    margin-left: auto;
+    margin-right: auto;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: var(--paragraph-dark);
+}
+
+.map-button {
+    border-radius: 122px;
+    border: transparent;
+    padding: 18.5px 56px;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    color: var(--white);
+    justify-content: center;
+    align-items: center;
 }
