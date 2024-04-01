@@ -1,3 +1,58 @@
+<<<<<<< HEAD
+=======
+li {
+  list-style: none;
+}
+
+.list {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+p {
+  margin-top: 0;
+}
+
+.conteiner {
+  width: 1727px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+.header-menu {
+  display: flex;
+}
+
+.menu {
+  width: 127px;
+  display: flex;
+  font-family: "DM Sans";
+}
+
+.header-logo {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 19px;
+  letter-spacing: 0.3px;
+  text-align: left;
+}
+
+.articles {
+  width: 1921px;
+  height: 1624px;
+}
+
+>>>>>>> a30a2a60c050b88a2a70a77f6de62a8e2502713a
 .num-title {
   font-family: var(--font-family);
   font-weight: 700;
@@ -8,7 +63,10 @@
 }
 
 .num-tex {
+<<<<<<< HEAD
   max-width: 484px;
+=======
+>>>>>>> a30a2a60c050b88a2a70a77f6de62a8e2502713a
   font-family: var(--font-family);
   font-weight: 400;
   font-size: 18px;
@@ -18,11 +76,14 @@
   color: var(--text-lighten);
 }
 
+<<<<<<< HEAD
 .num-list {
   list-style-type: none;
   display: flex;
 }
 
+=======
+>>>>>>> a30a2a60c050b88a2a70a77f6de62a8e2502713a
 .item-title {
   font-family: var(--font-family);
   font-weight: 700;
@@ -36,7 +97,10 @@
 .item-tex {
   font-family: var(--font-family);
   font-weight: 400;
+<<<<<<< HEAD
   max-width: 340px;
+=======
+>>>>>>> a30a2a60c050b88a2a70a77f6de62a8e2502713a
   font-size: 18px;
   line-height: 156%;
   letter-spacing: 0.03em;
@@ -48,7 +112,10 @@
   font-family: var(--font-family);
   font-weight: 700;
   font-size: 42px;
+<<<<<<< HEAD
   max-width: 614px;
+=======
+>>>>>>> a30a2a60c050b88a2a70a77f6de62a8e2502713a
   line-height: 119%;
   text-align: center;
   color: #000;
@@ -58,7 +125,10 @@
   font-family: var(--font-family);
   font-weight: 400;
   font-size: 18px;
+<<<<<<< HEAD
   max-width: 470px;
+=======
+>>>>>>> a30a2a60c050b88a2a70a77f6de62a8e2502713a
   line-height: 156%;
   letter-spacing: 0.03em;
   text-align: center;
@@ -67,7 +137,11 @@
 
 .map-button {
   border-radius: 122px;
+<<<<<<< HEAD
   padding: 18.5px 56px;
+=======
+  padding: 16px 24px;
+>>>>>>> a30a2a60c050b88a2a70a77f6de62a8e2502713a
   font-family: var(--font-family);
   font-weight: 700;
   font-size: 18px;
