@@ -1,9 +1,13 @@
+.numbers {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .num-title {
   font-family: var(--font-family);
   font-weight: 700;
   font-size: 60px;
   line-height: 150%;
-  text-align: center;
   color: var(--white);
 }
 
@@ -12,15 +16,13 @@
   font-family: var(--font-family);
   font-weight: 400;
   font-size: 18px;
-  line-height: 156%;
-  letter-spacing: 0.03em;
-  text-align: center;
-  color: var(--text-lighten);
 }
 
 .num-list {
-  list-style-type: none;
+  list-style: none;
   display: flex;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .item-title {
@@ -29,8 +31,7 @@
   font-size: 42px;
   line-height: 117%;
   letter-spacing: 0.01em;
-  text-align: center;
-  color: var(--main-red);
+  color: #DD2242;
 }
 
 .item-tex {
@@ -40,7 +41,6 @@
   font-size: 18px;
   line-height: 156%;
   letter-spacing: 0.03em;
-  text-align: center;
   color: var(--text-lighten);
 }
 
