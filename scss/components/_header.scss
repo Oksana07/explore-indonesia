@@ -1,3 +1,12 @@
+body {
+  background-image: url(/css/images/diego-gutierrez-NRn5rrBnH8w-unsplash\ 1.png);
+  background-size: cover;
+  background-position: center;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
 .header-menu {
   display: flex;
 }
@@ -5,7 +14,7 @@
 .menu {
   width: 127px;
   display: flex;
-  font-family: "DM Sans";
+  font-family: DM Sans;
 }
 
 .header-logo {
@@ -13,6 +22,6 @@
   font-size: 24px;
   font-weight: 900;
   line-height: 19px;
-  letter-spacing: 0.3px;
+  letter-spacing: 0.31527093052864075px;
   text-align: left;
 }

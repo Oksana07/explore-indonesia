@@ -48,6 +48,14 @@ p {
   --third-family: "FontAwesome", sans-serif;
 }
 
+body {
+  background-image: url(/css/images/diego-gutierrez-NRn5rrBnH8w-unsplash\ 1.png);
+  background-size: cover;
+  background-position: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .header-menu {
   display: flex;
 }
@@ -55,7 +63,7 @@ p {
 .menu {
   width: 127px;
   display: flex;
-  font-family: "DM Sans";
+  font-family: DM Sans;
 }
 
 .header-logo {
@@ -63,12 +71,12 @@ p {
   font-size: 24px;
   font-weight: 900;
   line-height: 19px;
-  letter-spacing: 0.3px;
+  letter-spacing: 0.3152709305px;
   text-align: left;
 }
 
 .articles {
-  background-image: url(../../images/articles-back.jpg);
+  background-image: url(../images/articles-back.jpg);
   background-position: center;
   margin-left: auto;
   margin-right: auto;
