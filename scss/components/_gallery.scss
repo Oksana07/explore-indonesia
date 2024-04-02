@@ -1,17 +1,33 @@
-.gallery-title{
+.gallery {
+    padding-top: 179px;
+    padding-bottom: 229px;
+}
+
+.gallery > .conteiner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.gallery-title {
     font-size: 60px;
     font-weight: bold;
     line-height: 150%;
-    color: #010A20;
+    color: #010a20;
+    text-align: center;
 }
 
-
-.gallery-description{
+.gallery-description {
     font-family: var(--font-family);
-font-weight: 400;
-font-size: 18px;
-line-height: 156%;
-letter-spacing: 0.01em;
-text-align: center;
-color: var(--paragraph-dark);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 156%;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: var(--paragraph-dark);
+    width: 511px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 71px;
 }

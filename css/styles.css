@@ -359,11 +359,23 @@ p {
   margin-right: auto;
 }
 
+.gallery {
+  padding-top: 179px;
+  padding-bottom: 229px;
+}
+
+.gallery > .conteiner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .gallery-title {
   font-size: 60px;
   font-weight: bold;
   line-height: 150%;
-  color: #010A20;
+  color: #010a20;
+  text-align: center;
 }
 
 .gallery-description {
@@ -374,4 +386,9 @@ p {
   letter-spacing: 0.01em;
   text-align: center;
   color: var(--paragraph-dark);
+  width: 511px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 71px;
 }/*# sourceMappingURL=styles.css.map */
