@@ -6,6 +6,8 @@ line-height: 150%;
 color: var(--blue---background);
 
 text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+margin-bottom: 44px;
+
 }
 
 .about-us-images{
@@ -14,20 +16,42 @@ text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 }
   
 .about-us-title-1{
-    width: 615px;
-    height: 76px;
-    color: #010A20;
+    font-family: var(--font-family);
+font-weight: 700;
+font-size: 26px;
+line-height: 156%;
+color: var(--blue---background);
+    margin-bottom: 28px;
+
 
 }
 
 .about-us-description{
     width: 1038.76px;
-    height: 114.44px;
+    // height: 114.44px;
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 23px;
+line-height: 162%;
+color: var(--light-text);
 }
 
 .about-us-img{
     width: 249.42px;
     height: 165.79px;
+    margin-top: 91px;
+}
+
+.about-us-boximg{
+    display: flex;
+    gap: 45px;
+    align-items: center;
+}
+
+.about-us-box{
+    display: flex;
+    gap: 44px;
+    margin-bottom: 79px;
 }
 
 
@@ -43,6 +67,8 @@ text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 
 .about-us{
     background-color: #DCE8F2;
+    padding-top: 119px;
+    padding-bottom: 117px;
 }
 
 
