@@ -445,13 +445,30 @@ p {
 }
 
 .button-about-us {
-  width: 210px;
-  height: 64px;
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+  text-align: center;
+  color: var(--white);
+  border-radius: 122px;
+  padding: 16px 24px;
+  background-color: #DD2242;
+  border: none;
+  cursor: pointer;
+}
+
+.button-about-us:hover,
+.button-about-us:focus {
   color: #DD2242;
+  background-color: aliceblue;
 }
 
 .about-us {
   background-color: #DCE8F2;
   padding-top: 119px;
   padding-bottom: 117px;
+  max-width: 1920px;
+  margin-left: auto;
+  margin-right: auto;
 }/*# sourceMappingURL=styles.css.map */
