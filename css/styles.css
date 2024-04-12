@@ -403,8 +403,23 @@ p {
   margin-bottom: 71px;
 }
 
+.about-us-title {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 150%;
+  color: var(--blue---background);
+  text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  margin-bottom: 44px;
+}
+
 .about-us {
   background-color: #dce8f2;
+  padding-top: 119px;
+  padding-bottom: 117px;
+  width: 1920px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .about-us-title {
@@ -422,23 +437,57 @@ p {
 }
 
 .about-us-title-1 {
-  width: 615px;
-  height: 76px;
-  color: #010a20;
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 156%;
+  color: var(--blue---background);
+  margin-bottom: 28px;
 }
 
 .about-us-description {
   width: 1038.76px;
-  height: 114.44px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 162%;
+  color: var(--light-text);
 }
 
 .about-us-img {
   width: 249.42px;
   height: 165.79px;
+  margin-top: 91px;
+}
+
+.about-us-boximg {
+  display: flex;
+  gap: 45px;
+  align-items: center;
+}
+
+.about-us-box {
+  display: flex;
+  gap: 44px;
+  margin-bottom: 79px;
 }
 
 .button-about-us {
-  width: 210px;
-  height: 64px;
-  color: #dd2242;
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+  text-align: center;
+  color: var(--white);
+  border-radius: 122px;
+  padding: 16px 24px;
+  background: var(--main-red);
+  border: none;
+}
+
+.button-about-us:hover,
+.button-about-us:focus {
+  color: var(--main-red);
+  background-color: antiquewhite;
+  cursor: pointer;
 }/*# sourceMappingURL=styles.css.map */
