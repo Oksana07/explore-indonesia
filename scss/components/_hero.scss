@@ -12,19 +12,34 @@
 
 .hero-box {
     display: flex;
-    gap: 204px;
-    margin-top: 136px;
+
+    @media screen and (min-width: 375px) {
+        margin-top: 100px;
+    }
+
+    @media screen and (min-width: 1727px) {
+        gap: 204px;
+        margin-top: 136px;
+    }
 }
 
 .hero-title {
     font-family: var(--second-family);
     font-weight: 900;
-    font-size: 120px;
+
     line-height: 108%;
     text-transform: uppercase;
     color: var(--white);
-    margin-top: 195px;
-    width: 627px;
+
+    @media screen and (min-width: 375px) {
+        font-size: 50px;
+    }
+
+    @media screen and (min-width: 1727px) {
+        font-size: 120px;
+        width: 627px;
+        margin-top: 195px;
+    }
 }
 
 .hero-button {
@@ -38,16 +53,25 @@
 
 .hero-list {
     border: 1px solid #000;
-    width: 1225px;
-    height: 210px;
     background: #000;
     opacity: 0.6;
-    margin-top: 241px;
-    display: flex;
-    justify-content: space-between;
+
     align-items: center;
     padding: 41px 128px 50px 70px;
-    margin-left: 191px;
+
+    @media screen and (min-width: 375px) {
+        width: 314px;
+        height: 472px;
+    }
+
+    @media screen and (min-width: 1727px) {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 241px;
+        width: 1225px;
+        height: 210px;
+        margin-left: 191px;
+    }
 }
 
 .hero-span {
@@ -82,15 +106,29 @@
 
 .palka-hero {
     width: 4px;
-    height: 100px;
+
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.45);
     background: var(--main-red);
+
+    @media screen and (min-width: 375px) {
+        height: 100px;
+    }
+
+    @media screen and (min-width: 1727px) {
+    }
 }
 
 .palka2-hero {
     width: 2px;
-    height: 296px;
+
     background: var(--white), var(--white);
+
+    @media screen and (min-width: 375px) {
+    }
+
+    @media screen and (min-width: 1727px) {
+        height: 296px;
+    }
 }
 
 .span-hero2 {
@@ -101,11 +139,22 @@
 }
 
 .hero-box2 {
-    display: flex;
+    @media screen and (min-width: 375px) {
+    }
+
+    @media screen and (min-width: 1727px) {
+        display: flex;
+    }
 }
 
 .photo-hero {
     width: 417px;
     height: 254px;
-    margin-top: 195px;
+
+    @media screen and (min-width: 375px) {
+    }
+
+    @media screen and (min-width: 1727px) {
+        margin-top: 195px;
+    }
 }
