@@ -1,36 +1,73 @@
+.map {
+    @media screen and (min-width: 375px) {
+        padding-top: 171px;
+        background-image: url(../../images/map-bg-forphone.png);
+    }
+
+
+    @media screen and (min-width: 1727px) {
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 249px;
+        padding-bottom: 257px;
+        background-image: url(../../images/map-bacround.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-top: 249px;
+        padding-bottom: 257px;
+    }
+}
+
 .map-title {
-    font-family: var(--font-family);
     font-weight: 700;
+    margin-left: auto;
+    margin-right: auto;
     font-size: 42px;
     line-height: 119%;
+    padding-bottom: 32px;
     text-align: center;
+
     color: #000;
 
-    padding-top: 248px;
-    padding-bottom: 274px;
+    @media screen and (min-width: 375px) {
+        width: 314px;
+    }
+
+
+    @media screen and (min-width: 1727px) {
+        width: 614px;
+    }
 }
 
 .map-text {
-    font-family: var(--font-family);
     font-weight: 400;
     font-size: 18px;
+    padding-bottom: 32px;
+    max-width: 470px;
     line-height: 156%;
+    margin-left: auto;
+    margin-right: auto;
     letter-spacing: 0.03em;
     text-align: center;
-    color: var(--paragraph-dark);
 }
 
 .map-button {
     border-radius: 122px;
-    padding: 16px 24px;
-    font-family: var(--font-family);
+    border: transparent;
+    padding: 18.5px 56px;
+
     font-weight: 700;
     font-size: 18px;
     line-height: 150%;
-    text-align: center;
-    color: var(--white);
-
     display: flex;
+    text-align: center;
     margin-left: auto;
     margin-right: auto;
+
+    @media screen and (min-width: 375px) {
+        padding: 23px 108px;
+    }
+
+
+    @media screen and (min-width: 1727px) {}
 }

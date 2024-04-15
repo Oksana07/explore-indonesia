@@ -13,6 +13,18 @@
     position: absolute;
     bottom: 0;
     left: 0;
+
+
+    @media screen and (min-width: 375px) {
+        padding-top: 72px;
+        padding-bottom: 69px;
+    }
+
+
+    @media screen and (min-width: 1727px) {
+        padding-top: 201px;
+        padding-bottom: 225px;
+    }
 }
 
 .num-title {
@@ -36,12 +48,32 @@
     margin-right: auto;
     margin-bottom: 39px;
     color: #e0e0e0;
+
+    @media screen and (min-width: 375px) {
+        max-width: 375px;
+        width: 314px;
+    }
+
+
+    @media screen and (min-width: 1727px) {
+        max-width: 1727px;
+    }
 }
 
 .num-list {
     list-style: none;
     display: flex;
     text-align: center;
+
+    @media screen and (min-width: 375px) {
+        display: block;
+        text-align: center;
+    }
+
+
+    @media screen and (min-width: 1727px) {
+        display: flex;
+    }
 }
 
 .num-item {
@@ -57,59 +89,27 @@
     line-height: 117%;
     letter-spacing: 0.01em;
     color: #dd2242;
+    text-align: center;
 }
 
 .item-tex {
     font-family: var(--font-family);
     font-weight: 400;
+
+    @media screen and (min-width: 375px) {
+        max-width: 375px;
+        width: 314px;
+    }
+
+
+    @media screen and (min-width: 1727px) {
+        max-width: 1727px;
+    }
+
     max-width: 340px;
     font-size: 18px;
+    text-align: center;
     line-height: 156%;
     letter-spacing: 0.03em;
     color: var(--text-lighten);
-}
-
-.map {
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.map-title {
-    font-family: var(--font-family);
-    font-weight: 700;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 42px;
-    max-width: 614px;
-    line-height: 119%;
-    text-align: center;
-    color: #000;
-}
-
-.map-text {
-    font-family: var(--font-family);
-    font-weight: 400;
-    font-size: 18px;
-    max-width: 470px;
-    line-height: 156%;
-    margin-left: auto;
-    margin-right: auto;
-    letter-spacing: 0.03em;
-    text-align: center;
-    color: var(--paragraph-dark);
-}
-
-.map-button {
-    border-radius: 122px;
-    border: transparent;
-    padding: 18.5px 56px;
-    font-family: var(--font-family);
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 150%;
-    text-align: center;
-    color: var(--white);
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
 }
