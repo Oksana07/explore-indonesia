@@ -10,6 +10,7 @@
 
 .header > .conteiner {
     display: flex;
+    justify-content: space-between;
 }
 
 .nav {
@@ -38,8 +39,16 @@
     fill: white;
 }
 .menu-list {
-    display: flex;
-    gap: 52px;
+  @media screen and (min-width: 375px) {
+      display: none;
+    }
+  
+  
+    @media screen and (min-width: 1727px) {
+        display: flex;
+        gap: 52px;
+    }
+ 
 }
 
 .menu-link {
@@ -51,7 +60,6 @@
 }
 
 .header-svg {
-    margin-left: 600px;
     display: flex;
     align-items: center;
     gap: 40px;
