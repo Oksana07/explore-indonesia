@@ -1,13 +1,40 @@
 .hero {
-    background-image: url(../images/hero.png);
     background-position: center;
     margin-left: auto;
     margin-right: auto;
     display: flex;
     background-size: cover;
-    max-width: 1920px;
+
     width: 100%;
     position: relative;
+
+    @media (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+        background-image: url(../../images/hero/hero@2x-mobile.png);
+    }
+
+    @media screen and (min-width: 375px) {
+        max-width: 375px;
+        height: 1150px;
+
+        @media (min-device-pixel-ratio: 2),
+            (min-resolution: 192dpi),
+            (min-resolution: 2dppx) {
+            background-image: url(../../images/hero/hero@2x-mobile.png);
+        }
+    }
+
+    @media screen and (min-width: 1727px) {
+        height: 1135px;
+        max-width: 1920px;
+
+        @media (min-device-pixel-ratio: 2),
+            (min-resolution: 192dpi),
+            (min-resolution: 2dppx) {
+            background-image: url(../images/hero.png);
+        }
+    }
 }
 
 .hero-box {
