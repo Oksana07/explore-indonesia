@@ -14,12 +14,10 @@
     bottom: 0;
     left: 0;
 
-
     @media screen and (min-width: 375px) {
         padding-top: 72px;
         padding-bottom: 69px;
     }
-
 
     @media screen and (min-width: 1727px) {
         padding-top: 201px;
@@ -54,25 +52,22 @@
         width: 314px;
     }
 
-
     @media screen and (min-width: 1727px) {
         max-width: 1727px;
     }
 }
 
 .num-list {
-    list-style: none;
-    display: flex;
-    text-align: center;
-
     @media screen and (min-width: 375px) {
-        display: block;
-        text-align: center;
+        gap: 80px;
+        flex-direction: column;
+        display: flex;
     }
-
 
     @media screen and (min-width: 1727px) {
         display: flex;
+        text-align: center;
+        flex-direction: row;
     }
 }
 
@@ -100,7 +95,6 @@
         max-width: 375px;
         width: 314px;
     }
-
 
     @media screen and (min-width: 1727px) {
         max-width: 1727px;

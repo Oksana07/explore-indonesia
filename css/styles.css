@@ -300,7 +300,11 @@ p {
   border-radius: 211px;
   padding: 20px;
   width: 271px;
+  border: transparent;
+  padding: 18.5px 56px;
+  font-family: var(--font-family);
   background: var(--main-red);
+  color: var(--white);
   margin-top: 21px;
   padding: 26px 64px;
 }
@@ -553,20 +557,18 @@ p {
   }
 }
 
-.num-list {
-  list-style: none;
-  display: flex;
-  text-align: center;
-}
 @media screen and (min-width: 375px) {
   .num-list {
-    display: block;
-    text-align: center;
+    gap: 80px;
+    flex-direction: column;
+    display: flex;
   }
 }
 @media screen and (min-width: 1727px) {
   .num-list {
     display: flex;
+    text-align: center;
+    flex-direction: row;
   }
 }
 
@@ -611,7 +613,8 @@ p {
 @media screen and (min-width: 375px) {
   .map {
     padding-top: 171px;
-    background-image: url(../../images/map-bg-forphone.png);
+    height: 741px;
+    background-image: url(../images/map-bg-forphone.png);
   }
 }
 @media screen and (min-width: 1727px) {
@@ -620,7 +623,7 @@ p {
     margin-right: auto;
     padding-top: 249px;
     padding-bottom: 257px;
-    background-image: url(../../images/map-bacround.png);
+    background-image: url(../images/map-bacround.png);
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 249px;
@@ -665,9 +668,13 @@ p {
   border-radius: 122px;
   border: transparent;
   padding: 18.5px 56px;
+  font-family: var(--font-family);
+  background: var(--main-red);
+  color: var(--white);
   font-weight: 700;
   font-size: 18px;
   line-height: 150%;
+  text-align: center;
   display: flex;
   text-align: center;
   margin-left: auto;

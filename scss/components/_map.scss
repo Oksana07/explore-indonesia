@@ -1,7 +1,8 @@
 .map {
     @media screen and (min-width: 375px) {
         padding-top: 171px;
-        background-image: url(../../images/map-bg-forphone.png);
+        height: 741px;
+        background-image: url(../images/map-bg-forphone.png);
     }
 
 
@@ -10,7 +11,7 @@
         margin-right: auto;
         padding-top: 249px;
         padding-bottom: 257px;
-        background-image: url(../../images/map-bacround.png);
+        background-image: url(../images/map-bacround.png);
         background-repeat: no-repeat;
         background-size: cover;
         padding-top: 249px;
@@ -56,13 +57,19 @@
     border: transparent;
     padding: 18.5px 56px;
 
+font-family: var(--font-family);
+background: var(--main-red);
+color: var(--white);
     font-weight: 700;
     font-size: 18px;
     line-height: 150%;
+    text-align: center;
+   
     display: flex;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    
 
     @media screen and (min-width: 375px) {
         padding: 23px 108px;

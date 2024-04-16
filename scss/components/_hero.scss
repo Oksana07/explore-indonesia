@@ -28,7 +28,7 @@
     @media screen and (min-width: 1727px) {
         height: 1135px;
         max-width: 1920px;
-background-image: url(../images/hero.png);
+        background-image: url(../images/hero.png);
         @media (min-device-pixel-ratio: 2),
             (min-resolution: 192dpi),
             (min-resolution: 2dppx) {
@@ -73,7 +73,12 @@ background-image: url(../images/hero.png);
     border-radius: 211px;
     padding: 20px;
     width: 271px;
+    border: transparent;
+    padding: 18.5px 56px;
+
+    font-family: var(--font-family);
     background: var(--main-red);
+    color: var(--white);
     margin-top: 21px;
     padding: 26px 64px;
 }
