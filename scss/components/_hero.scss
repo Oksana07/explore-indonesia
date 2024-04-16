@@ -11,7 +11,7 @@
     @media (min-device-pixel-ratio: 2),
         (min-resolution: 192dpi),
         (min-resolution: 2dppx) {
-        background-image: url(../../images/hero/hero@2x-mobile.png);
+        background-image: url(../images/hero/hero@2x-mobile.png);
     }
 
     @media screen and (min-width: 375px) {
@@ -21,18 +21,18 @@
         @media (min-device-pixel-ratio: 2),
             (min-resolution: 192dpi),
             (min-resolution: 2dppx) {
-            background-image: url(../../images/hero/hero@2x-mobile.png);
+            background-image: url(../images/hero/hero@2x-mobile.png);
         }
     }
 
     @media screen and (min-width: 1727px) {
         height: 1135px;
         max-width: 1920px;
-background-image: url(../../images/hero.png);
+background-image: url(../images/hero.png);
         @media (min-device-pixel-ratio: 2),
             (min-resolution: 192dpi),
             (min-resolution: 2dppx) {
-            background-image: url(../../images/hero.png);
+            background-image: url(../images/hero.png);
         }
     }
 }
