@@ -7,7 +7,9 @@ display: flex;
 background-size: cover;
 max-width: 1920px;
 width: 100%;
-height: 1080px;
+// height: 1080px;
+padding-top: 151px;
+padding-bottom: 210px;
 }
 
 .video-text{
@@ -17,6 +19,11 @@ font-size: 42px;
 line-height: 119%;
 text-align: center;
 color: var(--white);
+width: 1056px;
+margin-left: auto;
+margin-right: auto;
+display: flex;
+margin-bottom: 67px;
 }
 
 .video-title{
@@ -34,4 +41,16 @@ font-size: 18px;
 line-height: 156%;
 letter-spacing: 0.03em;
 color: var(--white);
+}
+
+.video-player{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    width: 1056px;
+}
+.video-box{
+    display: flex;
+    justify-content: center;
+    gap: 75px;
 }
