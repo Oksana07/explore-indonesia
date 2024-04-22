@@ -1,26 +1,20 @@
-
-.about-us-title{
-    font-family: var(--font-family);
-font-weight: 700;
-font-size: 60px;
-line-height: 150%;
-color: var(--blue---background);
-
-text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
-margin-bottom: 44px;
-
-}
-
-
 .about-us {
     background-color: #dce8f2;
-    padding-top: 119px;
-    padding-bottom: 117px;
-    width: 1920px;
+
     margin-left: auto;
     margin-right: auto;
 
+    @media screen and (min-width: 375px) {
+        padding-top: 29px;
+        padding-bottom: 32px;
+        width: 375px;
+    }
 
+    @media screen and (min-width: 1727px) {
+        padding-top: 119px;
+        padding-bottom: 117px;
+        width: 1727px;
+    }
 }
 
 .about-us-title {
@@ -31,71 +25,154 @@ margin-bottom: 44px;
     color: var(--blue---background);
 
     text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    margin-bottom: 44px;
+}
+
+.about-us-title {
+    font-family: var(--font-family);
+
+    color: var(--blue---background);
+
+    text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+
+    @media screen and (min-width: 375px) {
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 115%;
+        text-align: center;
+    }
+
+    @media screen and (min-width: 1727px) {
+        font-weight: 700;
+        font-size: 60px;
+        line-height: 150%;
+    }
 }
 
 .about-us-images {
     width: 58.69px;
     height: 58.69px;
+
+    @media screen and (min-width: 375px) {
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 150%;
+        text-align: center;
+    }
+
+    @media screen and (min-width: 1727px) {
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 150%;
+        text-align: center;
+    }
 }
 
-  
-.about-us-title-1{
+.about-us-title-1 {
     font-family: var(--font-family);
-font-weight: 700;
-font-size: 26px;
-line-height: 156%;
-color: var(--blue---background);
+
+    color: var(--blue---background);
     margin-bottom: 28px;
 
+    @media screen and (min-width: 375px) {
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 150%;
+        text-align: center;
+    }
 
-
+    @media screen and (min-width: 1727px) {
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 156%;
+        text-align: start;
+    }
 }
 
 .about-us-description {
-    width: 1038.76px;
     // height: 114.44px;
     font-family: var(--font-family);
-font-weight: 400;
-font-size: 23px;
-line-height: 162%;
-color: var(--light-text);
+    color: var(--light-text);
+
+    @media screen and (min-width: 375px) {
+        width: 314px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: 0.03em;
+        text-align: center;
+    }
+
+    @media screen and (min-width: 1727px) {
+        width: 1038.76px;
+        font-weight: 400;
+        font-size: 23px;
+        line-height: 162%;
+        text-align: start;
+    }
 }
 
-.about-us-img {
-    width: 249.42px;
-    height: 165.79px;
-    margin-top: 91px;
-}
-
-.about-us-boximg{
+.about-us-images {
     display: flex;
-    gap: 45px;
-    align-items: center;
+    @media screen and (min-width: 375px) {
+        margin-bottom: 26px;
+        margin-right: auto;
+        margin-left: auto;
+
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 150%;
+    }
+
+    @media screen and (min-width: 1727px) {
+        margin: 0;
+        align-items: center;
+        gap: 44px;
+    }
 }
 
-.about-us-box{
-    display: flex;
-    gap: 44px;
-    margin-bottom: 79px;
+.about-us-boximg {
+    @media screen and (min-width: 375px) {
+        gap: 49px;
+        flex-direction: column;
+        display: flex;
+    }
+
+    @media screen and (min-width: 1727px) {
+        gap: 45px;
+        display: flex;
+        margin-top: 94px;
+    }
+}
+
+.about-us-box {
+    @media screen and (min-width: 375px) {
+        margin-bottom: 32px;
+    }
+    @media screen and (min-width: 1727px) {
+        display: flex;
+        gap: 45px;
+        align-self: start;
+        margin-bottom: 94px;
+    }
 }
 
 .button-about-us {
     font-family: var(--font-family);
-font-weight: 700;
-font-size: 18px;
-line-height: 150%;
-text-align: center;
-color: var(--white);
-border-radius: 122px;
-padding: 16px 24px;
-background: var(--main-red);
-border: none;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    color: var(--white);
+    border-radius: 122px;
+    padding: 16px 24px;
+    background: var(--main-red);
+    border: none;
 }
 
 .button-about-us:hover,
-.button-about-us:focus{
+.button-about-us:focus {
     color: var(--main-red);
     background-color: antiquewhite;
     cursor: pointer;
-    
 }
