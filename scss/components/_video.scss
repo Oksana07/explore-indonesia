@@ -5,25 +5,59 @@
     margin-right: auto;
     display: flex;
     background-size: cover;
-    max-width: 1920px;
+
     width: 100%;
-    padding-top: 151px;
-    padding-bottom: 210px;
+
+    @media screen and (min-width: 375px) {
+        padding-top: 83px;
+        padding-bottom: 40px;
+        max-width: 375px;
+    }
+
+    @media screen and (min-width: 1727px) {
+        padding-top: 151px;
+        padding-bottom: 210px;
+        max-width: 1727px;
+    }
 }
 
+.video > .conteiner {
+    display: flex;
+    flex-wrap: wrap;
+    @media screen and (min-width: 375px) {
+        //  flex-direction: column;
+    }
+
+    @media screen and (min-width: 1727px) {
+        flex-direction: row;
+    }
+}
 
 .video-text {
     font-family: var(--font-family);
     font-weight: 700;
-    font-size: 42px;
-    line-height: 119%;
+
     text-align: center;
     color: var(--white);
-    width: 1056px;
+
     margin-left: auto;
     margin-right: auto;
     display: flex;
-    margin-bottom: 67px;
+
+    @media screen and (min-width: 375px) {
+        margin-bottom: 64px;
+
+        font-size: 40px;
+        line-height: 115%;
+        width: 314px;
+    }
+
+    @media screen and (min-width: 1727px) {
+        margin-bottom: 67px;
+        font-size: 42px;
+        line-height: 119%;
+        width: 1056px;
+    }
 }
 
 .video-player {
@@ -35,36 +69,75 @@
 }
 
 .video-box {
+    width: 1274px;
     margin-right: auto;
     margin-left: auto;
-    width: 1274px;
+
     display: flex;
 
     gap: 75px;
+    @media screen and (min-width: 375px) {
+        flex-direction: column;
+    }
+
+    @media screen and (min-width: 1727px) {
+        flex-direction: row;
+    }
 }
 
 .video-box2 {
     display: flex;
     gap: 41px;
+
+    @media screen and (min-width: 375px) {
+        flex-direction: column;
+    }
+
+    @media screen and (min-width: 1727px) {
+        flex-direction: row;
+    }
+}
+
+.video-box-text {
+    @media screen and (min-width: 375px) {
+        text-align: center;
+    }
+
+    @media screen and (min-width: 1727px) {
+        text-align: start;
+    }
 }
 
 .video-title {
     font-family: var(--font-family);
     font-weight: 700;
-    font-size: 18px;
+
     line-height: 150%;
     color: var(--white);
-    margin-bottom: 15px;
+
+    @media screen and (min-width: 375px) {
+        font-size: 22px;
+        margin-bottom: 19px;
+    }
+
+    @media screen and (min-width: 1727px) {
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
 }
 
 .video-text2 {
     font-family: var(--font-family);
     font-weight: 400;
-    font-size: 18px;
     line-height: 156%;
     letter-spacing: 0.03em;
     color: var(--white);
+
+    @media screen and (min-width: 375px) {
+        font-size: 16px;
+    }
+
+    @media screen and (min-width: 1727px) {
+        font-size: 18px;
+    }
 }
-
-
-
