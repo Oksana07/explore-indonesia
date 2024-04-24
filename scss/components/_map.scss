@@ -1,6 +1,7 @@
 .map {
     @media screen and (min-width: 375px) {
         padding-top: 171px;
+        max-width: 375px;
         height: 741px;
         background-image: url(../images/map-bg-forphone.png);
     }
@@ -14,6 +15,7 @@
         background-image: url(../images/map-bacround.png);
         background-repeat: no-repeat;
         background-size: cover;
+        max-width: 1727px;
     }
 }
 

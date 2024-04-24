@@ -251,7 +251,7 @@ p {
 @media screen and (min-width: 1727px) {
   .hero {
     height: 1135px;
-    max-width: 1920px;
+    max-width: 1727px;
     background-image: url(../images/hero.png);
   }
 }
@@ -408,7 +408,7 @@ p {
   background-position: center;
   margin-left: auto;
   margin-right: auto;
-  max-width: 1918px;
+  max-width: 1718px;
   display: flex;
   padding-top: 184px;
   padding-bottom: 305px;
@@ -482,7 +482,7 @@ p {
   margin-left: auto;
   margin-right: auto;
   background-size: cover;
-  max-width: 1920px;
+  max-width: 1718px;
   padding-top: 127px;
   height: 2207px;
   position: relative;
@@ -503,7 +503,6 @@ p {
   margin-left: auto;
   margin-right: auto;
   background-size: cover;
-  max-width: 1920px;
   width: 100%;
   padding-top: 201px;
   padding-bottom: 225px;
@@ -515,12 +514,14 @@ p {
   .numbers {
     padding-top: 72px;
     padding-bottom: 69px;
+    max-width: 375px;
   }
 }
 @media screen and (min-width: 1727px) {
   .numbers {
     padding-top: 201px;
     padding-bottom: 225px;
+    max-width: 1727px;
   }
 }
 
@@ -613,6 +614,7 @@ p {
 @media screen and (min-width: 375px) {
   .map {
     padding-top: 171px;
+    max-width: 375px;
     height: 741px;
     background-image: url(../images/map-bg-forphone.png);
   }
@@ -626,6 +628,7 @@ p {
     background-image: url(../images/map-bacround.png);
     background-repeat: no-repeat;
     background-size: cover;
+    max-width: 1727px;
   }
 }
 
@@ -1126,6 +1129,9 @@ p {
 .footer {
   padding-top: 39px;
   padding-bottom: 31px;
+  max-width: 1727px;
+  margin-left: auto;
+  margin-right: auto;
   background: var(--blue---background);
 }
 
